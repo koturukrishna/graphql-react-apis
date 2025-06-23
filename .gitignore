@@ -1,0 +1,16 @@
+# Ignore top-level node_modules and .env
+node_modules/
+.env
+
+# Ignore node_modules and .env in subfolders
+react-client/node_modules/
+react-client/.env
+
+react-mui/node_modules/
+react-mui/.env
+
+krish/node_modules/
+krish/.env
+
+zz_bcd_api/node_modules/
+zz_bcd_api/.env

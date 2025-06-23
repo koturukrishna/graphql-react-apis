@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive design</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .gal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .gal img {
+        width: calc(23.9% - 20px);
+        border-radius: 10px;
+        margin: 13px;
+      }
+      .gal img:hover {
+        transform: scale(1.075);
+      }
+      @media screen and (max-width: 1000px) {
+        .gal img {
+          width: calc(31% - 10px);
+          margin: 10px;
+        }
+        .gal {
+          margin: 10px auto;
+        }
+      }
+
+      @media screen and (max-width: 720px) {
+        .gal img {
+          width: calc(49% - 20px);
+          margin: 10px 10px;
+        }
+        .gal {
+          margin: 10px auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Our Leadership</h2>
+    <div>responsive design</div>
+    <div class="gal">
+      <img
+        src="https://silicon.createx.studio/assets/img/team/01.jpg"
+        alt="imge1"
+      />
+
+      <img
+        src="https://silicon.createx.studio/assets/img/team/02.jpg"
+        alt="imge2"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/03.jpg"
+        alt="imge3"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/04.jpg"
+        alt="imge4"
+      /><img
+        src="https://silicon.createx.studio/assets/img/team/05.jpg"
+        alt="imge5"
+      /><img
+        src="https://silicon.createx.studio/assets/img/team/06.jpg"
+        alt="imge6"
+      /><img
+        src="https://silicon.createx.studio/assets/img/team/07.jpg"
+        alt="imge7"
+      /><img
+        src="https://silicon.createx.studio/assets/img/team/08.jpg"
+        alt="imge8"
+      />
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .gal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .gal img {
+        width: calc(25% - 20px);
+        margin: 10px;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .gal img:hover {
+        transform: scale(1.05);
+      }
+
+      /* Responsive for tablets */
+      @media screen and (max-width: 1000px) {
+        .gal img {
+          width: calc(33.33% - 20px);
+        }
+      }
+
+      /* Responsive for mobile */
+      @media screen and (max-width: 720px) {
+        .gal img {
+          width: calc(50% - 20px);
+        }
+      }
+
+      /* For very small devices */
+      @media screen and (max-width: 480px) {
+        .gal img {
+          width: calc(100% - 20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Our Leadership</h2>
+    <div style="text-align: center; margin-bottom: 20px">Responsive Design</div>
+
+    <div class="gal">
+      <img
+        src="https://silicon.createx.studio/assets/img/team/01.jpg"
+        alt="img1"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/02.jpg"
+        alt="img2"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/03.jpg"
+        alt="img3"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/04.jpg"
+        alt="img4"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/05.jpg"
+        alt="img5"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/06.jpg"
+        alt="img6"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/07.jpg"
+        alt="img7"
+      />
+      <img
+        src="https://silicon.createx.studio/assets/img/team/08.jpg"
+        alt="img8"
+      />
+    </div>
+  </body>
+</html> -->
