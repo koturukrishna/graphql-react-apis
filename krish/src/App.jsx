@@ -1,10 +1,10 @@
 import "./App.css";
-import ProductsAPI from "./components/ProductsAPI";
+import DisplayProducts from "./components/DisplayProducts";
 
 function App() {
   return (
     <div>
-      <ProductsAPI></ProductsAPI>
+      <DisplayProducts></DisplayProducts>
     </div>
   );
 }

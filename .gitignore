@@ -14,3 +14,9 @@ krish/.env
 
 zz_bcd_api/node_modules/
 zz_bcd_api/.env
+
+zzz_react-client/node_modules/
+zzz_react-client/.env
+
+zzz_backend/node_modules
+zzz_backend/.env
